@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lpsBetty/angular-croppie.git"
+    "url": "git+https://github.com/oviva-ag/angular-croppie.git"
   },
   "keywords": [
     "avatar",
@@ -18,11 +18,11 @@
   "author": "Bettina Steger <admin@bettysteger.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lpsBetty/angular-croppie/issues"
+    "url": "https://github.com/oviva-ag/angular-croppie/issues"
   },
-  "homepage": "https://github.com/lpsBetty/angular-croppie#readme",
+  "homepage": "https://github.com/oviva-ag/angular-croppie#readme",
   "dependencies": {
-    "angular": ">=1.6.0",
+    "angular": ">=1.5.0",
     "croppie": "^2.4.0"
   }
 }
