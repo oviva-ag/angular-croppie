@@ -17,7 +17,7 @@ angular.module('ovi.croppie', []).
           height: 200
         },
         update: function () {
-          c.result('canvas').then(function(img) {
+          c.result({type:'canvas', format:'jpeg'}).then(function(img) {
             $scope.$apply(function () {
               ctrl.ngModel = img;
             });
