@@ -23,16 +23,15 @@ angular.module('ovi.croppie', []).
         options.result
       );
 
-      var c = new Croppie($element[0], {
-        options,
-        update: function () {
-          c.result(resultOptions).then(function(img) {
-            $scope.$apply(function () {
-              ctrl.ngModel = img;
-            });
+      options.update = function () {
+        c.result(resultOptions).then(function(img) {
+          $scope.$apply(function () {
+            ctrl.ngModel = img;
           });
-        }
-      });
+        });
+      };
+
+      var c = new Croppie($element[0], options);
 
       $scope.$watch(function(){
         return ctrl.src;
