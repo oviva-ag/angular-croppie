@@ -11,12 +11,12 @@ angular.module('ovi.croppie', []).
     controller: function ($scope, $element) {
       var ctrl = this;
 
-      var options = angular.extend(
+      var options = angular.extend({
         viewport: {
           width: 200,
           height: 200
         }
-      , $scope.options);
+      }, $scope.options);
 
       var resultOptions = angular.extend(
         {type:'canvas', format:'jpeg'},
