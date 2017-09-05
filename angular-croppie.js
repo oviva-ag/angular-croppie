@@ -16,7 +16,7 @@ angular.module('ovi.croppie', []).
           width: 200,
           height: 200
         }
-      }, $scope.options);
+      }, ctrl.options);
 
       var resultOptions = angular.extend(
         {type:'canvas', format:'jpeg'},
