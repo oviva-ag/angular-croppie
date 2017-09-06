@@ -39,9 +39,7 @@ angular.module('ovi.croppie', []).
 
         if(!ctrl.src) { return; }
         // bind an image to croppie
-        c.bind({
-          url: newSrc
-        });
+        c.bind({ url: newSrc, zoom: 0 });
       });
     }
   });
