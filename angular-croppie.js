@@ -23,6 +23,7 @@ angular.module('ovi.croppie', []).
         options.result
       );
 
+      var c = new Croppie($element[0], options);
       options.update = function () {
         c.result(resultOptions).then(function(img) {
           $scope.$apply(function () {
@@ -30,8 +31,6 @@ angular.module('ovi.croppie', []).
           });
         });
       };
-
-      var c = new Croppie($element[0], options);
 
       $scope.$watch(function(){
         return ctrl.src;

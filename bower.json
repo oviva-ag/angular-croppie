@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "main": "angular-croppie.js",
   "authors": [
-    "Bettina Steger <admin@bettysteger.com>"
+    "Bettina Steger <admin@bettysteger.com>",
+    "Thomas Richner <thomas.richner@oviva.com>"
   ],
   "description": "Use Croppie (https://github.com/Foliotek/Croppie) for a simple image cropping.",
   "keywords": [
@@ -12,7 +13,7 @@
     "cropping"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/lpsBetty/angular-croppie",
+  "homepage": "https://github.com/oviva-ag/angular-croppie",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -22,6 +23,6 @@
   ],
   "dependencies": {
     "angular": ">=1.6.0",
-    "croppie": "^2.4.0"
+    "croppie": "^2.5.0"
   }
 }
